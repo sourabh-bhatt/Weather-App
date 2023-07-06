@@ -10,3 +10,8 @@ const windSpeed = document.getElementById("windSpeed");
 const temprature = document.getElementById("temprature");
 const logoImage = document.getElementById("logoImage");
 const weatherStatus = document.getElementById("weatherStatus");
+
+// preventing the defaut input
+const getData = (event) => {
+  event.preventDefault();
+};
