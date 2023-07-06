@@ -1,7 +1,7 @@
 let data;
 
 // creating variables for fields
-const inputBox = document.getElementById("inputBoxx");
+const inputBox = document.getElementById("inputBox");
 const countryName = document.getElementById("countryName");
 const stateName = document.getElementById("stateName");
 const cityName = document.getElementById("cityName");
